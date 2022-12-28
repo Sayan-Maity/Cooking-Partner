@@ -16,7 +16,7 @@ export default function Meal({ meal }) {
       .catch(() => {
         console.log("err");
       });
-  }, [meal.id]);
+  });
 
   return (
     <article>
