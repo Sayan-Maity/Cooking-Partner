@@ -11,7 +11,7 @@ const RecipeCard = ({ result }) => {
           {result.title}
         </h3>
         <div className="items-center">
-          <img className="rounded m-auto" src={result.image}></img>
+          <img className="rounded m-auto" src={result.image} alt={result.id}></img>
         </div>
       </div>
     </>
